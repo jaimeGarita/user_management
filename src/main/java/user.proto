@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.iftc.user_management_ms.model.proto;
+
+message User {
+  int32 id = 1;
+  string username = 2;
+  string password = 3;
+  string salt = 4;
+  string email = 5;
+}
