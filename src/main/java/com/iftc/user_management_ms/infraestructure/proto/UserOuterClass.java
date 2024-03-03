@@ -2,7 +2,7 @@
 // source: user.proto
 
 // Protobuf Java Version: 3.25.3
-package com.iftc.user_management_ms.model.proto;
+package com.iftc.user_management_ms.domain.proto;
 
 public final class UserOuterClass {
   private UserOuterClass() {}
@@ -101,15 +101,15 @@ public final class UserOuterClass {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.iftc.user_management_ms.model.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_descriptor;
+      return com.iftc.user_management_ms.domain.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.iftc.user_management_ms.model.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_fieldAccessorTable
+      return com.iftc.user_management_ms.domain.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.iftc.user_management_ms.model.proto.UserOuterClass.User.class, com.iftc.user_management_ms.model.proto.UserOuterClass.User.Builder.class);
+              com.iftc.user_management_ms.domain.proto.UserOuterClass.User.class, com.iftc.user_management_ms.domain.proto.UserOuterClass.User.Builder.class);
     }
 
     public static final int ID_FIELD_NUMBER = 1;
@@ -343,10 +343,10 @@ public final class UserOuterClass {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.iftc.user_management_ms.model.proto.UserOuterClass.User)) {
+      if (!(obj instanceof com.iftc.user_management_ms.domain.proto.UserOuterClass.User)) {
         return super.equals(obj);
       }
-      com.iftc.user_management_ms.model.proto.UserOuterClass.User other = (com.iftc.user_management_ms.model.proto.UserOuterClass.User) obj;
+      com.iftc.user_management_ms.domain.proto.UserOuterClass.User other = (com.iftc.user_management_ms.domain.proto.UserOuterClass.User) obj;
 
       if (getId()
           != other.getId()) return false;
@@ -384,44 +384,44 @@ public final class UserOuterClass {
       return hash;
     }
 
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(byte[] data)
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(java.io.InputStream input)
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -429,26 +429,26 @@ public final class UserOuterClass {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseDelimitedFrom(java.io.InputStream input)
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseDelimitedFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User parseFrom(
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -461,7 +461,7 @@ public final class UserOuterClass {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.iftc.user_management_ms.model.proto.UserOuterClass.User prototype) {
+    public static Builder newBuilder(com.iftc.user_management_ms.domain.proto.UserOuterClass.User prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -482,18 +482,18 @@ public final class UserOuterClass {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.iftc.user_management_ms.proto.User)
-        com.iftc.user_management_ms.model.proto.UserOuterClass.UserOrBuilder {
+        com.iftc.user_management_ms.domain.proto.UserOuterClass.UserOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.iftc.user_management_ms.model.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_descriptor;
+        return com.iftc.user_management_ms.domain.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.iftc.user_management_ms.model.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_fieldAccessorTable
+        return com.iftc.user_management_ms.domain.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.iftc.user_management_ms.model.proto.UserOuterClass.User.class, com.iftc.user_management_ms.model.proto.UserOuterClass.User.Builder.class);
+                com.iftc.user_management_ms.domain.proto.UserOuterClass.User.class, com.iftc.user_management_ms.domain.proto.UserOuterClass.User.Builder.class);
       }
 
       // Construct using com.iftc.user_management_ms.proto.UserOuterClass.User.newBuilder()
@@ -521,17 +521,17 @@ public final class UserOuterClass {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.iftc.user_management_ms.model.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_descriptor;
+        return com.iftc.user_management_ms.domain.proto.UserOuterClass.internal_static_com_iftc_user_management_ms_proto_User_descriptor;
       }
 
       @java.lang.Override
-      public com.iftc.user_management_ms.model.proto.UserOuterClass.User getDefaultInstanceForType() {
-        return com.iftc.user_management_ms.model.proto.UserOuterClass.User.getDefaultInstance();
+      public com.iftc.user_management_ms.domain.proto.UserOuterClass.User getDefaultInstanceForType() {
+        return com.iftc.user_management_ms.domain.proto.UserOuterClass.User.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.iftc.user_management_ms.model.proto.UserOuterClass.User build() {
-        com.iftc.user_management_ms.model.proto.UserOuterClass.User result = buildPartial();
+      public com.iftc.user_management_ms.domain.proto.UserOuterClass.User build() {
+        com.iftc.user_management_ms.domain.proto.UserOuterClass.User result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -539,14 +539,14 @@ public final class UserOuterClass {
       }
 
       @java.lang.Override
-      public com.iftc.user_management_ms.model.proto.UserOuterClass.User buildPartial() {
-        com.iftc.user_management_ms.model.proto.UserOuterClass.User result = new com.iftc.user_management_ms.model.proto.UserOuterClass.User(this);
+      public com.iftc.user_management_ms.domain.proto.UserOuterClass.User buildPartial() {
+        com.iftc.user_management_ms.domain.proto.UserOuterClass.User result = new com.iftc.user_management_ms.domain.proto.UserOuterClass.User(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.iftc.user_management_ms.model.proto.UserOuterClass.User result) {
+      private void buildPartial0(com.iftc.user_management_ms.domain.proto.UserOuterClass.User result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.id_ = id_;
@@ -599,16 +599,16 @@ public final class UserOuterClass {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.iftc.user_management_ms.model.proto.UserOuterClass.User) {
-          return mergeFrom((com.iftc.user_management_ms.model.proto.UserOuterClass.User)other);
+        if (other instanceof com.iftc.user_management_ms.domain.proto.UserOuterClass.User) {
+          return mergeFrom((com.iftc.user_management_ms.domain.proto.UserOuterClass.User)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.iftc.user_management_ms.model.proto.UserOuterClass.User other) {
-        if (other == com.iftc.user_management_ms.model.proto.UserOuterClass.User.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.iftc.user_management_ms.domain.proto.UserOuterClass.User other) {
+        if (other == com.iftc.user_management_ms.domain.proto.UserOuterClass.User.getDefaultInstance()) return this;
         if (other.getId() != 0) {
           setId(other.getId());
         }
@@ -1036,12 +1036,12 @@ public final class UserOuterClass {
     }
 
     // @@protoc_insertion_point(class_scope:com.iftc.user_management_ms.proto.User)
-    private static final com.iftc.user_management_ms.model.proto.UserOuterClass.User DEFAULT_INSTANCE;
+    private static final com.iftc.user_management_ms.domain.proto.UserOuterClass.User DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.iftc.user_management_ms.model.proto.UserOuterClass.User();
+      DEFAULT_INSTANCE = new com.iftc.user_management_ms.domain.proto.UserOuterClass.User();
     }
 
-    public static com.iftc.user_management_ms.model.proto.UserOuterClass.User getDefaultInstance() {
+    public static com.iftc.user_management_ms.domain.proto.UserOuterClass.User getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1077,7 +1077,7 @@ public final class UserOuterClass {
     }
 
     @java.lang.Override
-    public com.iftc.user_management_ms.model.proto.UserOuterClass.User getDefaultInstanceForType() {
+    public com.iftc.user_management_ms.domain.proto.UserOuterClass.User getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
